@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>CareConnect</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<nav>
+
+<div class="logo">
+❤️ CareConnect
+</div>
+
+
+<div>
+
+<button onclick="openLogin()">
+Login
+</button>
+
+</div>
+
+
+</nav>
+
+
+
+
+<section class="hero">
+
+
+<div>
+
+<h1>
+Find Trusted Caregivers
+</h1>
+
+
+<p>
+Healthcare support whenever your family needs it.
+</p>
+
+
+<button onclick="patientForm()">
+Need a Caregiver
+</button>
+
+
+<button onclick="caregiverForm()" class="dark">
+I am a Caregiver
+</button>
+
+
+</div>
+
+
+
+<div class="circle">
+
+⭐ Verified Care
+
+</div>
+
+
+</section>
+
+
+
+
+
+<div id="box" class="form-box">
+
+
+<h2 id="title">
+Welcome
+</h2>
+
+
+<div id="content">
+
+Choose your role
+
+</div>
+
+
+</div>
+
+
+
+
+
+<section class="search">
+
+
+<h2>
+Find Caregivers
+</h2>
+
+
+<select id="filter">
+
+<option value="all">
+All
+</option>
+
+
+<option value="nurse">
+Nurse
+</option>
+
+
+<option value="elder">
+Elder Care
+</option>
+
+
+</select>
+
+
+
+<button onclick="searchCare()">
+Search
+</button>
+
+
+
+<div id="results">
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section class="dashboard">
+
+
+<h2>
+Caregiver Panel
+</h2>
+
+
+<button onclick="request()">
+Accept Request
+</button>
+
+
+<button onclick="earnings()">
+View Earnings
+</button>
+
+
+<p id="status"></p>
+
+
+</section>
+
+
+
+
+
+
+<footer>
+
+CareConnect © 2026
+
+</footer>
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
